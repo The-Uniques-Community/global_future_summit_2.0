@@ -265,7 +265,7 @@ const HeroSection = () => {
           </div>
 
           {/* Countdown Timer Cards with hover effects */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 mt-4 max-w-4xl ">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 mt-4 max-w-7xl ">
             {[
               { label: "Days", value: timeLeft.days },
               { label: "Hours", value: timeLeft.hours },
