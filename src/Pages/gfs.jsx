@@ -9,7 +9,7 @@ import GlobalFutureSummit from "../components1/About";
 import TimelineItem from "../components1/timeline";
 import SpeakersSection from "../components1/speakers";
 import Ideate from "../components1/ideate";
-import CallforSpeaker from "../components1/CallForSpeaker.jsx";
+import CallforSpeaker from "../components1/CallforSpeaker.jsx";
 
 function HomePage() {
   return (
