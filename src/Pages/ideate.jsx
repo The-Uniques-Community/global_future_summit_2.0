@@ -38,10 +38,6 @@ export default function HomePage() {
       <section id="prize-pool">
         <PrizePool />
       </section>
-
-      {/* Footer */}
-      <Footer2 />
-
       {/* Uncomment if form is needed */}
       {/* <Form /> */}
     </>

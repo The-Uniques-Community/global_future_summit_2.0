@@ -89,7 +89,7 @@ const Navbar2 = () => {
               aria-expanded={isMenuOpen}
             >
               {isMenuOpen ? (
-                <X className="text-white" size={24} />
+                <X className="text-black" size={24} />
               ) : (
                 <Menu className="text-white" size={24} />
               )}
@@ -100,11 +100,11 @@ const Navbar2 = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-16 left-0 w-full bg-white shadow-md z-40 lg:hidden transition-all duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 w-full bg-white shadow-md z-40 lg:hidden transition-all duration-300 ease-in-out ${
           isMenuOpen ? "translate-y-0" : "-translate-y-full"
         }`}
       >
-        <div className="flex flex-col py-4 px-6">
+        <div className="flex mt-18 flex-col gap-10 py-4 px-6">
           <ul className="flex flex-col space-y-4 font-medium text-[16px]">
             {[
               { to: "home", label: "Global Future Summit 2.0" },
@@ -131,7 +131,8 @@ const Navbar2 = () => {
             href="https://gdg.community.dev/events/details/google-gdg-on-campus-swami-vivekanand-institute-of-engineering-technology-chandigarh-india-presents-google-ideate-20-student-innovation-challenge-2025/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 w-full text-center py-2 text-white font-medium text-lg bg-[#4285F4] hover:bg-[#357ABD] transition-all rounded-lg"
+
+            className="mt-6 w-full  text-center py-2 text-white font-medium text-lg bg-[#4285F4] hover:bg-[#357ABD] transition-all rounded-lg"
           >
             Join Us
           </a>
