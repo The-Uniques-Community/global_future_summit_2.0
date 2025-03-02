@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import imgg from "../assets/ideate.png"; // Ensure this path is correct
+import { Link } from "react-router-dom";
 
 const Navbar2 = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,7 +36,10 @@ const Navbar2 = () => {
         <div className="w-[85%] h-full flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={imgg} alt="Logo" className="h-12 md:h-16" />
+            <Link to={"/ideate"}>
+              {" "}
+              <img src={imgg} alt="Logo" className="h-12 md:h-16" />
+            </Link>
           </div>
 
           {/* Desktop Menu */}
@@ -46,22 +50,34 @@ const Navbar2 = () => {
               } font-medium text-lg py-3 transition-all duration-300`}
             >
               {[
-                { to: "home", label: "Global Future Summit 2.0" },
+                { to: "/", label: "Global Future Summit 2.0" },
                 { to: "about", label: "About" },
                 { to: "theme", label: "Objective" },
                 { to: "timeline", label: "Timeline" },
                 { to: "prize-pool", label: "Prizes" },
               ].map((item, index) => (
                 <li key={index} className="cursor-pointer relative group">
-                  <ScrollLink
-                    to={item.to}
-                    smooth={true}
-                    duration={500}
-                    offset={-70} // Adjust for fixed navbar
-                    className="cursor-pointer"
-                  >
-                    {item.label}
-                  </ScrollLink>
+                  {index === 0 ? (
+                    <Link
+                      to={item.to}
+                      smooth={true}
+                      duration={500}
+                      offset={-70} // Adjust for fixed navbar
+                      className="cursor-pointer"
+                    >
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <ScrollLink
+                      to={item.to}
+                      smooth={true}
+                      duration={500}
+                      offset={-70} // Adjust for fixed navbar
+                      className="cursor-pointer"
+                    >
+                      {item.label}
+                    </ScrollLink>
+                  )}
                   <span className="absolute bottom-0 left-0 w-0 h-[3px] bg-[#4285f4] transition-all duration-300 group-hover:w-full"></span>
                 </li>
               ))}
@@ -131,7 +147,6 @@ const Navbar2 = () => {
             href="https://gdg.community.dev/events/details/google-gdg-on-campus-swami-vivekanand-institute-of-engineering-technology-chandigarh-india-presents-google-ideate-20-student-innovation-challenge-2025/"
             target="_blank"
             rel="noopener noreferrer"
-
             className="mt-6 w-full  text-center py-2 text-white font-medium text-lg bg-[#4285F4] hover:bg-[#357ABD] transition-all rounded-lg"
           >
             Join Us

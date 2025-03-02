@@ -5,9 +5,11 @@ import {
   Instagram, 
   ArrowRight, 
   Calendar, 
-  MapPin 
+  MapPin, 
+  Github
 } from 'lucide-react';
 import imgg from '../assets/glob.png';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -46,14 +48,17 @@ const Footer = () => {
               Join the world's leading tech innovators and visionaries at our annual professional summit, where the future is shaped today.
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
-              <a href="#" className="text-[#025067] hover:text-[#02374a] transition-colors duration-300">
+              <a href="https://www.linkedin.com/company/theuniquesofflicial/" className="text-[#025067] hover:text-[#02374a] transition-colors duration-300">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="text-[#025067] hover:text-[#02374a] transition-colors duration-300">
-                <Twitter className="w-5 h-5" />
+              <a href="https://github.com/orgs/The-Uniques-Community/" className="text-[#025067] hover:text-[#02374a] transition-colors duration-300">
+                <Github className="w-5 h-5" />
               </a>
-              <a href="#" className="text-[#025067] hover:text-[#02374a] transition-colors duration-300">
+              <a href="https://www.instagram.com/theuniquesofficial/" className="text-[#025067] hover:text-[#02374a] transition-colors duration-300">
                 <Instagram className="w-5 h-5" />
+              </a>
+              <a href="https://chat.whatsapp.com/HYOloogGXKcIkR83DnOjFj" className="text-[#025067] hover:text-[#02374a] transition-colors duration-300">
+                <FaWhatsapp className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -65,15 +70,15 @@ const Footer = () => {
               <li className="flex items-center justify-center md:justify-start">
                 <Calendar className="w-5 h-5 text-[#025067] mr-3 flex-shrink-0" />
                 <div>
-                  <p className="font-medium">June 15-17, 2025</p>
+                  <p className="font-medium">March 08, 2025</p>
                   <p className="text-sm text-gray-500">9:00 AM - 6:00 PM</p>
                 </div>
               </li>
               <li className="flex items-center justify-center md:justify-start">
                 <MapPin className="w-5 h-5 text-[#025067] mr-3 flex-shrink-0" />
                 <div>
-                  <p className="font-medium">Tech Innovation Center</p>
-                  <p className="text-sm text-gray-500">123 Future Avenue, San Francisco, CA</p>
+                  <p className="font-medium">SVIET Auditorium</p>
+                  <p className="text-sm text-gray-500">Banur Chandigarh , 140401</p>
                 </div>
               </li>
             </ul>
@@ -109,7 +114,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="flex flex-col md:flex-row justify-between items-center text-center">
+        <div className="flex flex-col md:flex-row mb-6 justify-between items-center text-center">
           <p className="text-gray-600 text-sm">
             &copy; {new Date().getFullYear()} FutureSummit. All rights reserved.
           </p>
