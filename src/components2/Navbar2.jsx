@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link as ScrollLink } from "react-scroll";
+import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import imgg from "../assets/ideate.png"; // Ensure this path is correct
 
@@ -46,12 +47,20 @@ const Navbar2 = () => {
               } font-medium text-lg py-3 transition-all duration-300`}
             >
               {[
-                { to: "home", label: "Global Future Summit 2.0" },
+                { to: "", label: "Global Future Summit 2.0" },
                 { to: "about", label: "About" },
                 { to: "theme", label: "Objective" },
                 { to: "timeline", label: "Timeline" },
                 { to: "prize-pool", label: "Prizes" },
               ].map((item, index) => (
+                item.to === "" ? (
+                <li key={index} className="cursor-pointer relative group">
+                  <Link to="/" className="cursor-pointer">
+                  {item.label}
+                  </Link>
+                  <span className="absolute bottom-0 left-0 w-0 h-[3px] bg-[#4285f4] transition-all duration-300 group-hover:w-full"></span>
+                </li>
+                ):(
                 <li key={index} className="cursor-pointer relative group">
                   <ScrollLink
                     to={item.to}
@@ -64,11 +73,11 @@ const Navbar2 = () => {
                   </ScrollLink>
                   <span className="absolute bottom-0 left-0 w-0 h-[3px] bg-[#4285f4] transition-all duration-300 group-hover:w-full"></span>
                 </li>
+              )
               ))}
             </ul>
           </div>
 
-          {/* RSVP Button & Mobile Menu Toggle */}
           <div className="flex items-center">
             <a
               href="https://gdg.community.dev/events/details/google-gdg-on-campus-swami-vivekanand-institute-of-engineering-technology-chandigarh-india-presents-google-ideate-20-student-innovation-challenge-2025/"
@@ -78,8 +87,6 @@ const Navbar2 = () => {
             >
               RSVP Now
             </a>
-
-            {/* Mobile Menu Toggle Button */}
             <button
               className={`p-2 lg:hidden rounded-full ${
                 isScrolled ? "bg-[#0B7798]" : "bg-white/20 backdrop-blur-md"

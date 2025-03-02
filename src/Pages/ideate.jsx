@@ -40,7 +40,7 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <Footer2 />
+      {/* <Footer2 /> */}
 
       {/* Uncomment if form is needed */}
       {/* <Form /> */}

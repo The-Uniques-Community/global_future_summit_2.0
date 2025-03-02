@@ -92,7 +92,7 @@ const Section = () => {
           
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
             <motion.a 
-              href="/ideate"
+              href="/register"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
               className="inline-block"

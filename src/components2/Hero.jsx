@@ -89,7 +89,7 @@ const Google = () => {
       </motion.p>
 
       {/* Call-to-Action Button */}
-      <Link to="/ideate/register" className="z-10" >
+      <Link to="/register" className="z-10" >
           <button className="mt-12 px-8 py-3 cursor-pointer bg-blue-600 hover:bg-blue-700 text-white text-[3vw] sm:text-lg font-semibold rounded-lg transition-all shadow-md hover:shadow-lg">
               Register Now      
           </button>

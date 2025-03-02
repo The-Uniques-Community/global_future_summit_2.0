@@ -222,7 +222,7 @@ const HeroSection = () => {
       {/* Main Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12">
         <div
-          className={`space-y-8 transform transition-all duration-1000 ease-out ${
+          className={`space-y-8 transform transition-all duration-1000 delay-2600 ease-out ${
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}
         >
@@ -286,7 +286,7 @@ const HeroSection = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center  gap-4 mt-4">
-          <Link to="/register">
+          <Link to="/register-global-futures-summit">
       <button className="cta-primary px-8 py-3 rounded-full text-white font-medium cursor-pointer">
         Register Now
       </button>

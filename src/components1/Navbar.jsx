@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { Menu, X } from 'lucide-react';
+// import { Link } from 'react-router-dom';
 import imgg from '../assets/glob.png';
 
 const Navbar = () => {
@@ -55,7 +56,10 @@ const Navbar = () => {
                     </div>
 
                     <div className="flex items-center">
+                        <a href="https://chat.whatsapp.com/HYOloogGXKcIkR83DnOjFj">
+
                         <button className="px-4 md:px-8 hidden lg:flex cursor-pointer py-2 text-white font-medium text-lg bg-[#025067] hover:bg-sky-800 transition rounded-lg">Join Us</button>
+                        </a>
                         <div className="rounded-full bg-[#025067] p-2 lg:hidden cursor-pointer" onClick={toggleMenu}>
                             {isMenuOpen ? <X className='text-white' size={24} /> : <Menu className='text-white' size={24} />}
                         </div>
@@ -88,7 +92,9 @@ const Navbar = () => {
                                 </li>
                             ))}
                         </ul>
-                        <button className="mt-6 w-full cursor-pointer py-2 text-white font-medium text-lg bg-[#025067] hover:bg-sky-800 transition rounded-lg">Join Us</button>
+                        <a href="https://chat.whatsapp.com/HYOloogGXKcIkR83DnOjFj">
+                        <button className="mt-6 w-full z-10 cursor-pointer py-2 text-white font-medium text-lg bg-[#025067] hover:bg-sky-800 transition rounded-lg">Join Us</button>
+                        </a>
                     </div>
                 </div>
             )}

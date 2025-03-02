@@ -25,6 +25,8 @@ import Footer2 from "./components2/Footer2";
 import Navbar2 from "./components2/Navbar2"; 
 import HomePage from "./Pages/gfs";
 import RegistrationForm from "./components2/Form";
+import IdeateRegistrationForm from "./components2/IdeateRegistration";
+import GFSRegistrationForm from "./components1/GFSRegistrationForm";
 const Layout = ()=>{
   return(
     <>
@@ -55,20 +57,21 @@ const router = createBrowserRouter([
     element: <Layout/>,
     children:[
       {path:"/", element:<HomePage/> },
-      {path:"/register-global-futures-summit", element:<>lol</>}
+      {path:"/register-global-futures-summit", element:"<GFSRegistrationForm/>"}
     ]
   },
+  {path:"/register", element:<RegistrationForm/>},
   {
     path:"/ideate",
     element: <Layout2/>,
     children:[
       {path:"/ideate",element:<Ideate/>},
-      
+      {path: "/ideate/register", element:<IdeateRegistrationForm/>}
     ]
 
   },
   
-    {path:"/register", element:<RegistrationForm/>}
+    
   
 ])
 const App = () => {

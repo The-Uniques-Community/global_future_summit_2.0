@@ -129,7 +129,7 @@ const RegistrationForm = () => {
                   required
                   className="w-full bg-black/50 border border-[#0b7797]/50 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-[#16a3cc] transition duration-200"
                 >
-                  {[1, 2, 3, 4].map((num) => (
+                  {[1, 2, 3].map((num) => (
                     <option key={num} value={num} className="bg-gray-900 text-white">
                       {num}
                     </option>

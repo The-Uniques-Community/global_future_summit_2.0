@@ -11,7 +11,7 @@ import { app } from "../firebaseConfig";
 const db = getDatabase(app);
 const storage = getStorage(app);
 
-const RegistrationForm = () => {
+const IdeateRegistrationForm = () => {
   const [formData, setFormData] = useState({
     fullName: "",
     department: "",
@@ -309,4 +309,4 @@ const RegistrationForm = () => {
   );
 };
 
-export default RegistrationForm;
+export default IdeateRegistrationForm;
