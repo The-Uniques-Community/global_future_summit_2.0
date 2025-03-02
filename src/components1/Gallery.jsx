@@ -1,12 +1,12 @@
 import React from "react";
 
 const images = [
-    "/src/assets/27.JPG",
-    "/src/assets/32.jpg",
-    "/src/assets/IMG_1412.jpg",
-    "/src/assets/IMG_1482.jpg",
-    "/src/assets/IMG_1531.jpg",
-    "/src/assets/IMG_1704.jpg",
+  "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumqWLC0dVXl8GxJUCebYMr3An0agj2yWpiqVvf",
+  "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAum2yUOpgWvT53OZ1aHF8mkfdPiU0cDoMlRG9zL",
+  "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumzE9eFQAhYxgKZ6AOMFluBUJEmvVjiwbnNWpq",
+  "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumIMqBstR21jqluvKkFoRaDpPfCGTtxewIs74z",
+  "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumyA6pe5Gvj9LGdSxXKPThlzeQcWmgO61ZJ87U",
+  "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumPGoet0Z89C4GnNKHTXFvruVyAOm6ZwU2Sibo",
 ];
 
 const ImageGrid = () => {
