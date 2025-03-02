@@ -85,7 +85,7 @@ const RegistrationForm = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-gradient-to-br from-gray-900 to-black font-sans">
+    <div className="flex flex-col pt-36 md:p-0 md:flex-row min-h-screen bg-gradient-to-br from-gray-900 to-black font-sans">
       <ToastContainer />
       
       {/* Form Section */}
@@ -182,7 +182,7 @@ const RegistrationForm = () => {
           <img 
             src={ideateImage} 
             alt="Ideate" 
-            className="max-w-full max-h-full object-contain rounded-xl shadow-2xl transform -rotate-2 hover:rotate-0 transition duration-500"
+            className="max-w-[70%] max-h-full object-contain rounded-xl shadow-2xl transform -rotate-2 hover:rotate-0 transition duration-500"
           />
         </div>
       </div>

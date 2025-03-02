@@ -35,7 +35,6 @@ function HomePage() {
       </section>
       <ImageGrid/>
       <Faq8/>
-      {/* <Footer/> */}
     </div>
   );
 }
