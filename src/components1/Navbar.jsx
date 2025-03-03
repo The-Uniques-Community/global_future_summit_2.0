@@ -81,7 +81,11 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center">
-            <a href="https://chat.whatsapp.com/HYOloogGXKcIkR83DnOjFj">
+            <a
+              href="https://chat.whatsapp.com/HYOloogGXKcIkR83DnOjFj"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="px-4 md:px-8 hidden lg:flex cursor-pointer py-2 text-white font-medium text-lg bg-[#025067] hover:bg-sky-800 transition rounded-lg">
                 Join Our Community
               </button>
@@ -129,6 +133,8 @@ const Navbar = () => {
             <a
               className=""
               href="https://chat.whatsapp.com/HYOloogGXKcIkR83DnOjFj"
+              target="_blank"
+              rel="noreferrer"
             >
               <button className="px-4 md:px-8 lg:flex cursor-pointer py-2 mt-3  text-white font-medium text-lg bg-[#025067] hover:bg-sky-800 transition rounded-lg">
                 Join Our Community
