@@ -15,7 +15,7 @@ function HomePage() {
   return (
     <div className="font-[poppins] bg-white min-h-screen w-full overflow-x-hidden flex flex-col items-center justify-center">
       <Navbar />
-      <section id="home">
+      <section id="Home">
         <HeroSection />
       </section>
       <section id="about">

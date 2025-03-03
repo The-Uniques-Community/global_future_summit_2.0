@@ -54,17 +54,7 @@ const Navbar = () => {
                 { label: "Contact Us", to: "contact" },
               ].map((item, index) => (
                 <li key={index} className="cursor-pointer">
-                  {item.label === "Home" ? (
-                    <RouteLink
-                      to="/"
-                      smooth={true}
-                      duration={500}
-                      offset={-70}
-                      className="cursor-pointer transition-colors duration-300 hover:text-[#025067]"
-                    >
-                      {item.label}
-                    </RouteLink>
-                  ) : (
+                   
                     <Link
                       to={item.to}
                       smooth={true}
@@ -74,7 +64,7 @@ const Navbar = () => {
                     >
                       {item.label}
                     </Link>
-                  )}
+                 
                 </li>
               ))}
             </ul>
