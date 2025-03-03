@@ -6,7 +6,7 @@ import Img3 from "../assets/theme.png";
 
 const Section = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between overflow-hidden max-w-full w-[90%] h-screen p-6 relative" style={{
+    <div className="flex flex-col md:flex-row items-center justify-between overflow-hidden max-w-full mx-auto w-[90%] h-screen p-6 relative" style={{
       // backgroundColor: "#E6F2F7", // Google Yellow
       // backgroundImage: `linear-gradient(rgba(66, 133, 244, 0.1) 1px, transparent 1px),
       //                   linear-gradient(90deg, rgba(66, 133, 244, 0.1) 1px, transparent 1px)`,

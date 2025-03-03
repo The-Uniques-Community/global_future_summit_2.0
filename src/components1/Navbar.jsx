@@ -54,15 +54,27 @@ const Navbar = () => {
                 { label: "Contact Us", to: "contact" },
               ].map((item, index) => (
                 <li key={index} className="cursor-pointer">
-                  <Link
-                    to={item.to}
-                    smooth={true}
-                    duration={500}
-                    offset={-70}
-                    className="cursor-pointer transition-colors duration-300 hover:text-[#025067]"
-                  >
-                    {item.label}
-                  </Link>
+                  {item.label === "Home" ? (
+                    <RouteLink
+                      to="/"
+                      smooth={true}
+                      duration={500}
+                      offset={-70}
+                      className="cursor-pointer transition-colors duration-300 hover:text-[#025067]"
+                    >
+                      {item.label}
+                    </RouteLink>
+                  ) : (
+                    <Link
+                      to={item.to}
+                      smooth={true}
+                      duration={500}
+                      offset={-70}
+                      className="cursor-pointer transition-colors duration-300 hover:text-[#025067]"
+                    >
+                      {item.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -114,7 +126,10 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <a className="" href="https://chat.whatsapp.com/HYOloogGXKcIkR83DnOjFj">
+            <a
+              className=""
+              href="https://chat.whatsapp.com/HYOloogGXKcIkR83DnOjFj"
+            >
               <button className="px-4 md:px-8 lg:flex cursor-pointer py-2 mt-3  text-white font-medium text-lg bg-[#025067] hover:bg-sky-800 transition rounded-lg">
                 Join Our Community
               </button>

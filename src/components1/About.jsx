@@ -581,7 +581,7 @@ const AboutUs = () => {
                 
                 <div className="flex items-center justify-between mb-4 relative z-10">
                   <h4 className="stat-value text-4xl font-bold text-white">{stat.value}+</h4>
-                  <div className="p-2 bg-white/10 rounded-full">
+                  <div className="p-2 bg-white/10 text-white rounded-full">
                     {stat.icon}
                   </div>
                 </div>

@@ -254,6 +254,7 @@ const GFSRegister = () => {
                 <option value="Mechanical Engineering">Mechanical Engineering</option>
                 <option value="Civil Engineering">Civil Engineering</option>
                 <option value="Electrical Engineering">Electrical Engineering</option>
+                <option value="Others">Others</option>
               </select>
             </div>
 

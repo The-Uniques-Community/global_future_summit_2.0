@@ -16,10 +16,10 @@ const Footer = () => {
     <footer className="bg-white relative overflow-hidden ">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-24 -left-24 w-48 h-48 rounded-full bg-[#025067] opacity-5 animate-pulse"></div>
-        <div className="absolute top-1/4 right-1/4 w-64 h-64 rounded-full bg-[#025067] opacity-5 animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-1/3 left-1/3 w-32 h-32 rounded-full bg-[#025067] opacity-5 animate-pulse" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute -bottom-16 -right-16 w-56 h-56 rounded-full bg-[#025067] opacity-5 animate-pulse" style={{ animationDelay: '1.5s' }}></div>
+        <div className="absolute -top-24 -left-24 w-48 h-48 rounded-full bg-[#025067] opacity-5 "></div>
+        <div className="absolute top-1/4 right-1/4 w-64 h-64 rounded-full bg-[#025067] opacity-5 " style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-1/3 left-1/3 w-32 h-32 rounded-full bg-[#025067] opacity-5 " style={{ animationDelay: '2s' }}></div>
+        <div className="absolute -bottom-16 -right-16 w-56 h-56 rounded-full bg-[#025067] opacity-5 " style={{ animationDelay: '1.5s' }}></div>
       </div>
 
       {/* Main Footer Content */}
