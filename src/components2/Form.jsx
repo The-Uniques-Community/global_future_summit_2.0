@@ -3,7 +3,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { getDatabase, ref, set } from "firebase/database";
 import { app } from "../firebaseConfig";
-import ideateImage from "../assets/Ideate.jpg";
+import Ideate from "../assets/Ideate.jpg";
 
 const db = getDatabase(app);
 
@@ -11,6 +11,8 @@ const RegistrationForm = () => {
   const [formData, setFormData] = useState({
     teamName: "",
     teamLeader: "",
+    teamLeaderPhone: "",
+    teamLeaderDepartment: "",
     teamMembers: 1,
     members: [""],
     pptUrl: "",
@@ -57,6 +59,8 @@ const RegistrationForm = () => {
       await set(ref(db, `participants/${formData.teamName}`), {
         Team_Name: formData.teamName,
         Team_Leader: formData.teamLeader,
+        Team_Leader_Phone: formData.teamLeaderPhone,
+        Team_Leader_Department: formData.teamLeaderDepartment,
         Team_Count: formData.teamMembers,
         Team_Members: formData.members,
         PPT_URL: formData.pptUrl
@@ -71,6 +75,8 @@ const RegistrationForm = () => {
       setFormData({
         teamName: "",
         teamLeader: "",
+        teamLeaderPhone: "",
+        teamLeaderDepartment: "",
         teamMembers: 1,
         members: [""],
         pptUrl: "",
@@ -85,7 +91,7 @@ const RegistrationForm = () => {
   };
 
   return (
-    <div className="flex flex-col pt-36 md:p-0 md:flex-row min-h-screen bg-gradient-to-br from-gray-900 to-black font-sans">
+    <div className="flex flex-col md:flex-row min-h-screen bg-gradient-to-br from-gray-900 to-black font-sans">
       <ToastContainer />
       
       {/* Form Section */}
@@ -114,6 +120,30 @@ const RegistrationForm = () => {
                   name="teamLeader"
                   placeholder="Team Leader Name"
                   value={formData.teamLeader}
+                  onChange={handleChange}
+                  required
+                  className="w-full bg-black/50 border border-[#0b7797]/50 rounded-lg p-3 text-white placeholder-[#16a3cc]/70 focus:outline-none focus:ring-2 focus:ring-[#16a3cc] transition duration-200"
+                />
+              </div>
+              
+              <div>
+                <input
+                  type="tel"
+                  name="teamLeaderPhone"
+                  placeholder="Team Leader Phone Number"
+                  value={formData.teamLeaderPhone}
+                  onChange={handleChange}
+                  required
+                  className="w-full bg-black/50 border border-[#0b7797]/50 rounded-lg p-3 text-white placeholder-[#16a3cc]/70 focus:outline-none focus:ring-2 focus:ring-[#16a3cc] transition duration-200"
+                />
+              </div>
+              
+              <div>
+                <input
+                  type="text"
+                  name="teamLeaderDepartment"
+                  placeholder="Team Leader Department"
+                  value={formData.teamLeaderDepartment}
                   onChange={handleChange}
                   required
                   className="w-full bg-black/50 border border-[#0b7797]/50 rounded-lg p-3 text-white placeholder-[#16a3cc]/70 focus:outline-none focus:ring-2 focus:ring-[#16a3cc] transition duration-200"
@@ -180,9 +210,10 @@ const RegistrationForm = () => {
       <div className="hidden md:block md:w-1/2 bg-black/40">
         <div className="h-full w-full flex items-center justify-center p-6">
           <img 
-            src={ideateImage} 
+            src={Ideate} 
+
             alt="Ideate" 
-            className="max-w-[70%] max-h-full object-contain rounded-xl shadow-2xl transform -rotate-2 hover:rotate-0 transition duration-500"
+            className="max-w-full max-h-full object-contain rounded-xl shadow-2xl transform -rotate-2 hover:rotate-0 transition duration-500"
           />
         </div>
       </div>
