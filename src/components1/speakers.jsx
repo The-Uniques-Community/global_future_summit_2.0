@@ -13,164 +13,110 @@ import {
 const speakersData = {
   "HR Panelists": [
     {
-      name: "John Doe",
-      title: "HR Manager, XYZ Corp",
+      name: "Vani Matta",
+      title: "Senior Analyst, Talent Acquisition & Mangaement, Accenture",
       photo:
-        "https://assets-us-01.kc-usercontent.com/5cb25086-82d2-4c89-94f0-8450813a0fd3/0c3fcefb-bc28-4af6-985e-0c3b499ae832/Elon_Musk_Royal_Society.jpg?fm=jpg&auto=format",
-      bio: "15+ years of experience in talent acquisition and HR management",
+        "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vGyTkEwZLKfAFGiS2PxkEzJyVjb8BWotX1MeD",
+      bio: "Senior Analyst, Talent Acquisition & Management specializing in strategic hiring, workforce planning, and talent retention.",
       social: {
-        linkedin: "#",
-        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/vanimatta222681127/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BvB3JW3BBSkODp9JUMttS9g%3D%3D",
       },
     },
     {
-      name: "Jane Smith",
-      title: "Talent Acquisition, ABC Ltd",
-      photo: "https://static.politico.com/f2/9d/f85912974b15abbfcc973d0a3951/bezos-space-20600.jpg",
-      bio: "Specializes in tech recruitment and employer branding",
+      name: "Ms. Parul kataria",
+      title: "Talent Acquisition Lenskart",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vWkkEav9ZUJeBczWtaGougO6f0pl3T1mk9ARr",
+      bio: "Recruitment specialist specializing in talent acquisition and workforce planning.",
       social: {
-        linkedin: "#",
-        instagram: "#",
+        linkedin: "https://www.linkedin.com/in/katariaparul/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BucdHk%2FK%2BTeKGMZr1acOwsA%3D%3D",
       },
     },
     {
-      name: "Robert Johnson",
-      title: "People Ops Director, Tech Inc",
-      photo: "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2667+0+0/resize/1100/quality/50/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2Ffb%2F62f7bcdd47329b5419411e9a7471%2Fbill-gates-portrait-at-npr.jpg",
-      bio: "Leading HR transformation and culture initiatives",
+      name: "Ms. Aashi Sharma",
+      title: "Manager - HRBP CAR DEKHO",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0v1Ab82VXfVZ3duipw2feq0zP7tGHBEISrWCxU",
+      bio: "HR professional specializing in business partnering and employee engagement.",
       social: {
-        linkedin: "#",
-        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/aashi-sharma-969270151/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJ%2FYWo5SSRRmr1gwe5qLBNQ%3D%3D",
       },
     },
     {
-      name: "Lisa Brown",
-      title: "HR Strategy Lead, Future Co",
-      photo: "https://cdn.britannica.com/99/236599-050-1199AD2C/Mark-Zuckerberg-2019.jpg",
-      bio: "Expert in organizational development and HR analytics",
+      name: "Sonali Varshney",
+      title: "HR Executive, HCLTech",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vfoFOqKTT6JCm9nZbixYyHo2M3XtLRAwvgGzh",
+      bio: "HR professional specializing in talent management and employee relations.",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/sonali-varshney-411864144?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACMCo00BNBAm3JWIlNjX4iUKI-lVjZqBZDE&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAuKah0OkQNiW0pum2Jb4og%3D%3D",
       },
     },
     {
-      name: "Michael Wilson",
-      title: "Chief People Officer, NextGen",
-      photo: "https://cdn.britannica.com/73/234573-050-8EE03E16/Cristiano-Ronaldo-ceremony-rename-airport-Santa-Cruz-Madeira-Portugal-March-29-2017.jpg",
-      bio: "Passionate about creating inclusive workplaces",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        instagram: "#",
-      },
+      name: "Mr. Dhruv Pratap Singh",
+      title: "Deputy General Manager, Swaraj",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0v8fUdXXnVGBx3sh1tnMD6RjqdSiNbU2ofXmY9",
+      bio: "Leadership expert specializing in operations and strategic management.",   
     },
-  ],
-  "Startup Panelists": [
+    ],
+  "Industry Panelists": [
     {
-      name: "Alex Johnson",
-      title: "Founder, TechStart",
+      name: "Mr. Mukul Batta ",
+      title: "Manager - Barclays",
       photo:
-        "https://www.thestatesman.com/wp-content/uploads/2024/09/Untitled-design-2024-09-25T175741.839-jpg.webp",
-      bio: "Serial entrepreneur with 3 successful exits",
+        "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0v1k0olTfVZ3duipw2feq0zP7tGHBEISrWCxUT",
+      bio: "Finance professional specializing in banking operations and strategic leadership.",
       social: {
-        linkedin: "#",
-        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/mukul-batta-612728110/",
       },
     },
     {
-      name: "Emily Davis",
-      title: "CEO, InnovateHub",
-      photo: "https://m.media-amazon.com/images/M/MV5BOWUzNzIzMzQtNzMxYi00OWRiLTlhZjEtZTRjYWVkYzI4ZjMwXkEyXkFqcGc@._V1_.jpg",
-      bio: "Building the future of collaborative workspaces",
+      name: "Mr. Arvind Singh",
+      title: "Project Release Manager at TCS",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vZPqTZNoJBtS3OouIHyGiDCqsba05rFkR9zPe",
+      bio: "Project management expert specializing in release coordination and delivery.",
       social: {
         linkedin: "#",
-        instagram: "#",
       },
     },
     {
-      name: "David Miller",
-      title: "CTO, LaunchX",
-      photo: "https://images.mktw.net/im-69671558?width=1260&height=835",
-      bio: "Tech visionary specializing in AI and machine learning",
+      name: "Mr. Sandeep Kumar Rajput",
+      title: "Vice President – Sales Royal Orchid & Regenta Hotels",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vAqUxao5MEZ0vzHVbdpBI7DRroefhwqXKuty9",
+      bio: "Sales leader specializing in hospitality and business growth strategies.",
       social: {
         linkedin: "#",
-        twitter: "#",
       },
     },
     {
-      name: "Sarah Wilson",
-      title: "Founder, Elevate",
-      photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIgH_3-IA_MTH8DqfWQ9auSZpMdbNCjM8hYQ&s",
-      bio: "Focused on sustainable business models and impact",
+      name: "Surbhi Kumar",
+      title: "Manager, People Partner & Talent Development HCLTech"
+,
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vt5tgF0jZ4VqLnsSvIF5ObGxCNRMKXc7fElge",
+      bio: "HR strategist specializing in talent development and employee engagement.",
       social: {
-        linkedin: "#",
-        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/surbhi-kumar-3a31b2148/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2F6M1puerS8ae8ZHPmJjlxw%3D%3D",
       },
     },
     {
-      name: "James Thompson",
-      title: "Angel Investor, Seed Capital",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Shri_Narendra_Modi%2C_Prime_Minister_of_India_%283x4_cropped%29.jpg",
-      bio: "Invested in over 50 early-stage startups",
+      name: "Mr.Bala Krishna",
+      title: "Expert & Training Consultant in Game Development Industry",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vnrGQhjw6PU0vXr3kA9agDHd8iEzIsGu7KC2j",
+      bio: "Game development expert specializing in training and industry consulting.",
       social: {
         linkedin: "#",
-        twitter: "#",
-      },
-    },
-  ],
-  "GDG Panels": [
-    {
-      name: "Mark Wilson",
-      title: "GDG Lead, DevCommunity",
-      photo:
-        "https://www.pinkvilla.com/images/2023-09/1695385436_shutterstock_233351890-1.jpg",
-      bio: "Community builder and tech evangelist",
-      social: {
-        linkedin: "#",
-        twitter: "#",
       },
     },
     {
-      name: "Sarah Brown",
-      title: "Tech Speaker, Google Devs",
-      photo: "https://www.thestatesman.com/wp-content/uploads/2024/09/Untitled-design-2024-09-25T175741.839-jpg.webp",
-      bio: "Passionate about making tech accessible to everyone",
+      name: "Mr.PVS Balasubramanyam",
+      title: "Chief Executive Officer, IRA Automations Pvt. Ltd.",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vGTnlQBZLKfAFGiS2PxkEzJyVjb8BWotX1MeD",
+      bio: "Business leader specializing in automation and industrial innovation.",
       social: {
         linkedin: "#",
-        twitter: "#",
-      },
-    },
-    {
-      name: "Thomas Lee",
-      title: "Android Developer, GDG",
-      photo: "https://www.thestatesman.com/wp-content/uploads/2024/09/Untitled-design-2024-09-25T175741.839-jpg.webp",
-      bio: "Building innovative mobile experiences",
-      social: {
-        linkedin: "#",
-        instagram: "#",
-      },
-    },
-    {
-      name: "Amanda Chen",
-      title: "ML Engineer, Google",
-      photo: "https://www.thestatesman.com/wp-content/uploads/2024/09/Untitled-design-2024-09-25T175741.839-jpg.webp",
-      bio: "Working on next-gen machine learning applications",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-      },
-    },
-    {
-      name: "Kevin Park",
-      title: "Cloud Architect, GDG Cloud",
-      photo: "https://www.thestatesman.com/wp-content/uploads/2024/09/Untitled-design-2024-09-25T175741.839-jpg.webp",
-      bio: "Expert in cloud infrastructure and DevOps",
-      social: {
-        linkedin: "#",
-        twitter: "#",
       },
     },
   ],
 };
+
+
 
 export default function SpeakersSection() {
   const [selectedPanel, setSelectedPanel] = useState("HR Panelists");
@@ -452,7 +398,7 @@ export default function SpeakersSection() {
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className={`bg-white rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden shadow-md sm:shadow-lg md:shadow-xl border border-gray-100 group flex-shrink-0 transition-all duration-500 ${
+                  className={`bg-white cursor-pointer rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden shadow-md sm:shadow-lg md:shadow-xl border border-gray-100 group flex-shrink-0 transition-all duration-500 ${
                     hoveredCard === index
                       ? "shadow-xl sm:shadow-2xl shadow-[#0B7798]/20"
                       : ""
