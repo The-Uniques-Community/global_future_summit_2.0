@@ -10,10 +10,126 @@ import {
   Instagram,
 } from "lucide-react";
 
+// const speakersData = {
+//   "HR Panelists": [
+//     {
+//       name: "Vani Matta",
+//       title: "Senior Analyst, Talent Acquisition & Mangaement, Accenture",
+//       photo:
+//         "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vGyTkEwZLKfAFGiS2PxkEzJyVjb8BWotX1MeD",
+//       bio: "Senior Analyst, Talent Acquisition & Management specializing in strategic hiring, workforce planning, and talent retention.",
+//       social: {
+//         linkedin: "https://www.linkedin.com/in/vanimatta222681127/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BvB3JW3BBSkODp9JUMttS9g%3D%3D",
+//       },
+//     },
+//     {
+//       name: "Ms. Parul kataria",
+//       title: "Talent Acquisition Lenskart",
+//       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vWkkEav9ZUJeBczWtaGougO6f0pl3T1mk9ARr",
+//       bio: "Recruitment specialist specializing in talent acquisition and workforce planning.",
+//       social: {
+//         linkedin: "https://www.linkedin.com/in/katariaparul/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BucdHk%2FK%2BTeKGMZr1acOwsA%3D%3D",
+//       },
+//     },
+//     {
+//       name: "Ms. Aashi Sharma",
+//       title: "Manager - HRBP CAR DEKHO",
+//       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0v1Ab82VXfVZ3duipw2feq0zP7tGHBEISrWCxU",
+//       bio: "HR professional specializing in business partnering and employee engagement.",
+//       social: {
+//         linkedin: "https://www.linkedin.com/in/aashi-sharma-969270151/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJ%2FYWo5SSRRmr1gwe5qLBNQ%3D%3D",
+//       },
+//     },
+//     {
+//       name: "Sonali Varshney",
+//       title: "HR Executive, HCLTech",
+//       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vfoFOqKTT6JCm9nZbixYyHo2M3XtLRAwvgGzh",
+//       bio: "HR professional specializing in talent management and employee relations.",
+//       social: {
+//         linkedin: "https://www.linkedin.com/in/sonali-varshney-411864144?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACMCo00BNBAm3JWIlNjX4iUKI-lVjZqBZDE&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAuKah0OkQNiW0pum2Jb4og%3D%3D",
+//       },
+//     },
+//     {
+//       name: "Mr. Dhruv Pratap Singh",
+//       title: "Deputy General Manager, Swaraj",
+//       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0v8fUdXXnVGBx3sh1tnMD6RjqdSiNbU2ofXmY9",
+//       bio: "Leadership expert specializing in operations and strategic management.",   
+//     },
+//     ],
+//   "Industry Panelists": [
+//     {
+//       name: "Mr. Mukul Batta ",
+//       title: "Manager - Barclays",
+//       photo:
+//         "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0v1k0olTfVZ3duipw2feq0zP7tGHBEISrWCxUT",
+//       bio: "Finance professional specializing in banking operations and strategic leadership.",
+//       social: {
+//         linkedin: "https://www.linkedin.com/in/mukul-batta-612728110/",
+//       },
+//     },
+//     {
+//       name: "Mr. Arvind Singh",
+//       title: "Project Release Manager at TCS",
+//       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vZPqTZNoJBtS3OouIHyGiDCqsba05rFkR9zPe",
+//       bio: "Project management expert specializing in release coordination and delivery.",
+//       social: {
+//         linkedin: "#",
+//       },
+//     },
+//     {
+//       name: "Mr. Sandeep Kumar Rajput",
+//       title: "Vice President – Sales Royal Orchid & Regenta Hotels",
+//       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vAqUxao5MEZ0vzHVbdpBI7DRroefhwqXKuty9",
+//       bio: "Sales leader specializing in hospitality and business growth strategies.",
+//       social: {
+//         linkedin: "#",
+//       },
+//     },
+//     {
+//       name: "Surbhi Kumar",
+//       title: "Manager, People Partner & Talent Development HCLTech"
+// ,
+//       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vt5tgF0jZ4VqLnsSvIF5ObGxCNRMKXc7fElge",
+//       bio: "HR strategist specializing in talent development and employee engagement.",
+//       social: {
+//         linkedin: "https://www.linkedin.com/in/surbhi-kumar-3a31b2148/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2F6M1puerS8ae8ZHPmJjlxw%3D%3D",
+//       },
+//     },
+//     {
+//       name: "Mr.Bala Krishna",
+//       title: "Expert & Training Consultant in Game Development Industry",
+//       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vnrGQhjw6PU0vXr3kA9agDHd8iEzIsGu7KC2j",
+//       bio: "Game development expert specializing in training and industry consulting.",
+//       social: {
+//         linkedin: "#",
+//       },
+//     },
+//     {
+//       name: "Mr.PVS Balasubramanyam",
+//       title: "Chief Executive Officer, IRA Automations Pvt. Ltd.",
+//       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vGTnlQBZLKfAFGiS2PxkEzJyVjb8BWotX1MeD",
+//       bio: "Business leader specializing in automation and industrial innovation.",
+//       social: {
+//         linkedin: "#",
+//       },
+//     },
+//   ],
+// };
+
 const speakersData = {
   "HR Panelists": [
     {
-      name: "Vani Matta",
+      name: "Ms. Sonia Aswani",
+      title: "Senior Staffing Lead, Google Cloud Platform",
+      photo:
+        "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vbjwRk9DyFGCLWKTp5mJs2iROg7XN6rcDnE1l",
+      bio: "Talent acquisition expert specializing in staffing and workforce strategy.",
+      social: {
+        linkedin: "https://www.linkedin.com/in/sonia-aswani-a923a523/",
+      },
+    },
+    {
+      name: "Ms. Vani Matta",
       title: "Senior Analyst, Talent Acquisition & Mangaement, Accenture",
       photo:
         "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vGyTkEwZLKfAFGiS2PxkEzJyVjb8BWotX1MeD",
@@ -23,7 +139,7 @@ const speakersData = {
       },
     },
     {
-      name: "Ms. Parul kataria",
+      name: "Ms. Parul Kataria",
       title: "Talent Acquisition Lenskart",
       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vWkkEav9ZUJeBczWtaGougO6f0pl3T1mk9ARr",
       bio: "Recruitment specialist specializing in talent acquisition and workforce planning.",
@@ -41,7 +157,7 @@ const speakersData = {
       },
     },
     {
-      name: "Sonali Varshney",
+      name: "Ms. Sonali Varshney",
       title: "HR Executive, HCLTech",
       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vfoFOqKTT6JCm9nZbixYyHo2M3XtLRAwvgGzh",
       bio: "HR professional specializing in talent management and employee relations.",
@@ -54,6 +170,15 @@ const speakersData = {
       title: "Deputy General Manager, Swaraj",
       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0v8fUdXXnVGBx3sh1tnMD6RjqdSiNbU2ofXmY9",
       bio: "Leadership expert specializing in operations and strategic management.",   
+    },
+    {
+      name: "Mr. Sanjeev Kumar Mehra",
+      title: "DHead of HR, Aplicar",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0v9RiLAXUSdr4nZgi5HzVLqRAMu9ocPU1EGvTw",
+      bio: "HR leader specializing in talent management and organizational development.",   
+      social: {
+        linkedin: "https://www.linkedin.com/in/sanjeev-kumarhr/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BjO0d%2BwOSTUyt%2BNhResh9Hw%3D%3D",
+      },
     },
     ],
   "Industry Panelists": [
@@ -72,18 +197,20 @@ const speakersData = {
       title: "Project Release Manager at TCS",
       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vZPqTZNoJBtS3OouIHyGiDCqsba05rFkR9zPe",
       bio: "Project management expert specializing in release coordination and delivery.",
-      social: {
-        linkedin: "#",
-      },
     },
     {
       name: "Mr. Sandeep Kumar Rajput",
       title: "Vice President – Sales Royal Orchid & Regenta Hotels",
       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vAqUxao5MEZ0vzHVbdpBI7DRroefhwqXKuty9",
       bio: "Sales leader specializing in hospitality and business growth strategies.",
-      social: {
-        linkedin: "#",
-      },
+      
+    },
+    {
+      name: "Mr. Prateek Kumar",
+      title: "Head of Planning & Monitoring, Larsen & Toubro",
+      photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vGl1MWfZLKfAFGiS2PxkEzJyVjb8BWotX1MeD",
+      bio: "Strategic leader specializing in planning, monitoring, and project execution.",
+      
     },
     {
       name: "Surbhi Kumar",
@@ -100,23 +227,15 @@ const speakersData = {
       title: "Expert & Training Consultant in Game Development Industry",
       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vnrGQhjw6PU0vXr3kA9agDHd8iEzIsGu7KC2j",
       bio: "Game development expert specializing in training and industry consulting.",
-      social: {
-        linkedin: "#",
-      },
     },
     {
       name: "Mr.PVS Balasubramanyam",
       title: "Chief Executive Officer, IRA Automations Pvt. Ltd.",
       photo: "https://19kv9tvyvc.ufs.sh/f/nrJbTqn6PU0vGTnlQBZLKfAFGiS2PxkEzJyVjb8BWotX1MeD",
       bio: "Business leader specializing in automation and industrial innovation.",
-      social: {
-        linkedin: "#",
-      },
     },
   ],
 };
-
-
 
 export default function SpeakersSection() {
   const [selectedPanel, setSelectedPanel] = useState("HR Panelists");
